@@ -1,0 +1,154 @@
+/* Global: CSS dùng chung cho toàn bộ website */
+/* dấu *: chọn tất cả các thẻ HTML */
+* {
+  /* reset margin, padding mặc định của trình duyệt */
+  margin: 0;
+  padding: 0;
+  /* giữ nguyên kích thước width của thẻ khi thêm padding */
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #faf4f2;
+}
+
+
+/* xóa kỹ thuật sắp xếp khu vực sau khi float */
+.clear {
+  clear: both;
+}
+
+.header {
+  /* HEX : #rrggbb  0 =>f */
+  background-color: #f8e1db;
+  padding: 10px 30px;
+
+  /* padding: 20px; */
+  /* padding: 10px 30px 40px 100px; */
+  /* padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px; */
+}
+
+.header .logo img {
+  width: 70px;
+}
+
+.header .navbar {
+  margin-top: 10px;
+}
+
+.header .navbar a {
+  color: #000000;
+  /* text-decoration: underline ; */
+  /* text-decoration: overline ; */
+  /* text-decoration: line-through ; */
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: normal;
+  /* font-weight: bold ; */
+}
+
+.header .navbar a:hover {
+  color: #e76f51;
+}
+
+.carousel {
+  height: 900px;
+  background-image: url(../images/BG.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  /* background-size: x y */
+  /* background-size: 200px 300px; */
+  /* background-position: x y ; */
+}
+
+/* ACTIVITIES */
+.activities {
+  text-align: center;
+}
+
+/* display: inline chỉ áp dụng cho nội dung đơn giản(chứa 1 con hoặc một dòng chữ ngắn) */
+/* float: giúp sắp xếp các khối nội dung, hỗ trợ mọi phiên bản trình duyệt, nhược điểm là khó sửa dụng */
+
+/* thẻ nào cần sắp xếp thì gọi thẻ đó float */
+.col {
+  float: left;
+  width: 25%;
+
+  /* margin: 0 10px; */
+  padding: 0 10px;
+  /* background-color: white; */
+
+  /* border: 1px solid red; */
+}
+
+.item {
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.thumbnail img {
+  width: 100%;
+}
+
+.thumbnail {
+  /* position thẻ cha gần nhất */
+  position: relative;
+}
+
+.heart {
+  /* canh chỉnh vị trí cho thẻ con bằng position absolute */
+  position: absolute;
+  top: 20px;
+  right: 20px;
+
+
+  /* thẻ a là loại thẻ inline, không chỉnh được kích thước, do đó phải chuyển thẻ a từ inline sang block */
+  width: 40px;
+  height: 40px;
+
+  /* opacity độ trong suốt của thẻ (bao gồm toàn bộ nội dung) */
+  /* giá trị 0->1 */
+  /* opacity: 0.5; */
+  background-color: rgba(255, 255, 255, 0.7);
+  display: block;
+
+  /* canh icon vô giữa theo chiều ngang */
+  text-align: center;
+  /* canh icon vô giữa theo chiều dọc */
+  /* line-height: là khoảng cách giữa các dòng, nếu thẻ chỉ có 1 dòng chữ hoặc 1 ký tự chữ thì cho line-height bằng hoặc gần bằng height thì sẽ canh giữa theo chiều dọc */
+  line-height: 40px;
+
+  border-radius: 5px;
+}
+
+.heart i {
+  /* thẻ i do có tác động của thư viện fontawesome, thư viện đã chỉnh thẻ i thành display block */
+  /* width: 40px;
+  height: 40px;
+  background-color: yellow; */
+  color: #e76f51;
+}
+
+.item p {
+  margin: 15px 0;
+}
+
+.viewAll button {
+  padding: 10px 30px;
+  /* height: 30px;
+  width: 50px; */
+  border: 1px solid #e76f51;
+  /* giá trị màu trong suốt */
+  background-color: transparent;
+  border-radius: 50px;
+  margin: 20px 0;
+  /* hiện dấu bàn tay của chuột của người dùng di chuyển chuột vào thẻ */
+  cursor: pointer;
+}

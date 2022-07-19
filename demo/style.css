@@ -1,0 +1,29 @@
+/* h1 {
+  background-color: green;
+  color: red;
+}
+
+p {
+  font-size: 100px;
+} */
+
+#title {
+  background-color: red;
+}
+
+.title1 {
+  color: white;
+  background-color: pink;
+}
+
+.container h1 {
+  background-color: yellow;
+}
+
+.title2 {
+  background-color: purple !important;
+}
+
+.title {
+  background-color: blue;
+}
