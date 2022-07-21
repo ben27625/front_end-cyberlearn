@@ -1,0 +1,306 @@
+/* Reset css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Giữ nguyên thuộc tính width khi thêm padding */
+}
+
+
+body {
+    background-color: #faf4f2;
+}
+/* Kĩ thuật xóa khi float */
+.clear {
+    clear: both;
+
+}
+
+.social__clean {
+    clear:both;
+}
+
+.footer__clear {
+    clear: both;
+}
+
+
+.header {
+    background-color: #f8e1db;
+    padding: 10px 30px;
+}
+
+
+.header .logo img {
+    width: 70px;
+}
+
+/* .logo img {
+    width: 70px;
+
+} */
+.header .navbar {
+    margin-top: 10px;
+}
+
+
+.header .navbar a {
+    color: black;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: normal;
+
+}
+.header .navbar a:hover {
+    color: #e76f51;
+}
+
+
+.carousel {
+    height: 900px;
+    background-image: url(../images/BG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+}
+
+/* Section ativitises */
+
+.activities {
+   background-color:  #faf4f2;
+    text-align: center;
+}
+
+
+.col {
+    float: left;
+    width: 25%;
+
+    /* margin: 0 10px; */
+    padding: 0 10px;
+
+}
+
+.item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+
+.thumbnail img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.thumbnail {
+    position: relative;
+}
+
+
+.heart {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+
+
+
+    width: 40px;
+    height: 40px;
+
+    /* opacity: 0.7; */
+    background-color: rgba(255, 255, 255, 0.71);
+
+    /* Độ trong suốt của tag
+    and có thể background color  */
+
+
+
+    background-color:rgba(205, 237, 160, 0.434);
+    display: block;
+    text-align: center;
+    line-height: 40px;
+
+    border-radius: 5px;
+}
+
+.heart i {
+    /* width: 40px;
+    height: 40px;
+    background-color: #e76f51;
+    color: #f8e1db; */
+  color: #e76f51;
+
+}
+
+.item p {
+    margin: 15px 0;
+}
+
+.item .ReadMore {
+    
+    padding: 8px 16px;
+    background-color: #e8e8e8;
+    color: #8d8d8d;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.viewAll button {
+  padding: 10px 30px;
+  border: 1px solid  #e76f51;
+  color: #e76f51;
+
+  background-color: transparent;
+  border-radius: 50px;
+
+  margin: 20px 0;
+
+  cursor: pointer;
+  font-size: 15px;
+  
+
+}
+
+.viewAll button:hover {
+    background-color: #e8e8e8;
+    
+}
+
+
+.contact {
+    height: 100%;
+    background-color: #f8e1db;
+
+}
+
+.contact .social {
+    float: left;
+    width: 50%;
+}
+
+.contact .social .homeicon {
+    width: 50%;
+  
+    margin: 30px;
+    
+
+}
+
+.social .social__title {
+    text-align: left;
+    margin: 40px 0;
+    color: #959393;
+}
+
+.social .social__Dowload {
+    color: #959393;
+    
+
+}
+
+
+
+
+
+.social .social__media {
+    display: inline-block;
+    margin-top: 50px;
+
+}
+
+.FollowUs {
+    padding-left: 20px;
+}
+
+.social__media {
+    /* background-color: #e76f51; */
+    /* height: 20%; */
+    display: inline-block;
+    font-size: 45px;
+
+  
+}
+
+
+.AppStore {
+}
+
+.GooglePlay {
+
+}
+
+.Facebook {
+    color: #e76f51;
+    padding-bottom: 5px;
+}
+
+.Youtube {
+    color: #e76f51;
+
+    
+}
+
+.instagram {
+    color: #e76f51;
+
+}
+
+.printes {
+    color: #e76f51;
+
+}
+
+
+.footer {
+    height: 100%;
+    background-color: #f8e1db;
+    width: 100%;
+    border-radius: 100px;
+    padding: 40px;
+    margin-top: 50px;
+    /* font-family:  sans-serif; */
+    /* line-height: 30px; */
+    font-weight: 10px;
+   
+}
+
+.footer__text {
+    background-color: #f8e1db;
+
+
+    float: left;
+    width: 25%;
+    /* height: 50%; */
+    padding: 40px;
+    
+
+}
+
+.footer__content {
+    height: 50%;
+    
+    
+}
+
+.Allrights {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
